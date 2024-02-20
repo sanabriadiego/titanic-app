@@ -2,6 +2,8 @@ import streamlit as st
 import numpy as np
 from prediction import predict
 
+st.image('images/titanic.png', caption='Sunrise by the mountains')
+
 st.write("Hello World")
 
 pclass = st.selectbox('What was your passenger class?', [1,2,3])
